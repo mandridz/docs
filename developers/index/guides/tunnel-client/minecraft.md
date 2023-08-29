@@ -10,7 +10,7 @@ Minecraft — популярная игра, любимая многими.
 
 Это всего лишь пример, который демонстрирует возможность запуска динамических приложений в TEE, используя такие инструменты, как <mark style="color:red;">Tunnel Client</mark> и _<mark style="color:red;">Tunnel Server</mark>_.
 
-Код сервера и клиента был взят из публичных репозиториев.
+Код [сервера](https://github.com/PrismarineJS/flying-squid) и [клиента](https://github.com/PrismarineJS/prismarine-web-client) был взят из публичных репозиториев.
 
 Весь код примера можно найти на [здесь](https://github.com/Super-Protocol/solutions/tree/main/Tunnel%20Client/minecraft).
 
