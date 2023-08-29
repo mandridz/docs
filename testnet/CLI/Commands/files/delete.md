@@ -1,26 +1,30 @@
 ---
-id: "cli-files-delete"
-title: "Delete file"
-slug: "/cli/commands/files/delete"
-sidebar_label: "delete"
+id: cli-files-delete
+title: Delete file
+slug: /cli/commands/files/delete
+sidebar_label: delete
 ---
+
+# Delete file
 
 Delete a file in the remote storage using resource file `<resourcePath>`
 
-## Usage
+### Usage
 
+{% code fullWidth="false" %}
 ```
 spctl files delete <resourcePath> [OPTIONS]
 ```
+{% endcode %}
 
-## Arguments
+### Arguments
 
-|**Name**|**Description**|
-| :- | :- |
-|`resourcePath`|Path to a resource file|
+| **Name**       | **Description**         |
+| -------------- | ----------------------- |
+| `resourcePath` | Path to a resource file |
 
-## Options
+### Options
 
-|**Name, shorthand**|**Default**|**Description**|
-| :- | :- | :- |
-|`--config`|`./config.json`|Path to the configuration file|
+| **Name, shorthand** | **Default**     | **Description**                |
+| ------------------- | --------------- | ------------------------------ |
+| `--config`          | `./config.json` | Path to the configuration file |
